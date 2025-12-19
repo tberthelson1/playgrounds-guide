@@ -1,4 +1,4 @@
-import data from "../../data/saltlakecity.json";
+import data from "../data/saltlakecity.json";
 
 export const metadata = {
   title: "Salt Lake City Kids Activities – Indoor Playgrounds, Splash Pads & More",
