@@ -28,6 +28,7 @@ export default function Home() {
       <ul>
         <li>
           <a href="/salt-lake-city">Salt Lake City, Utah</a>
+          <a href="/dallas">Dallas, Texas</a>
         </li>
       </ul>
 
