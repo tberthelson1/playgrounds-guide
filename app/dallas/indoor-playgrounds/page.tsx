@@ -20,7 +20,7 @@ function slugify(text: string) {
 export default function IndoorPlaygroundsPage() {
   const venues = data.map((venue: any) => ({
     ...venue,
-    slug: slugify(venue.Name),
+slug: venue?.Name ? slugify(venue.Name) : null,
   }));
 
   return (
