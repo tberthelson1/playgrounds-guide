@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import data from "../../../data/dallas.json";
+import data from "../../data/dallas.json";
 
 export const metadata = {
   title: "Indoor Playgrounds in Dallas (2026 Guide)",
