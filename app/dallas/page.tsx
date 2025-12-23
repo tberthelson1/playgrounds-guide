@@ -25,6 +25,11 @@ export default function DallasPage() {
             </p>
       <ul>
         {venues.map((venue: any) => {
+                  if (!venue || !venue.Name) {
+      // Skip bad rows instead of crashing the build
+      return null;
+    }
+          
           const slug = venue.Name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
           return (
             <li key={slug}>
